@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="et"><!--et on eesti keeles, en aga inglise jne-->
+  <head>
+  		<meta charset="UTF-8">
+    	<title>Harjutus1</title><!--tagi nimi-->
+		
+  </head>
+  <body><!--siit algab osa, mis on browseris näha-->
+  		<h1 style="text-align:center; color:blue">Seente liigimääraja</h1><!--style ja jutumärkide sees olev inf on CSS-st-->
+    		Jänes ja karu on seenel. Karu leiab kärbseseene. Ja hakkab seda üles võtma. Jänes karjub karule: "Ära seda seent võtta see on kärbseseen!!"
+    		Karu: "Ah, las kärbes otsib endale uue seene."Ja korjab seene üles.
+		<br>	
+        
+		<h2>Lühijuhend</h2>
+		Kaks lõvi istuvad puuris ja silmitsevad kaasaskantava apteegi sisu ja sarvraamidega prille.<br/>
+		"Hea loomaarst oli," ütleb üks.<br/>
+		"Jah," nõustub teine, "kahju, et enam tükikestki järel pole..."<br/>
+		
+		<h3>Tunnuste grupid</h3>
+			<img src="frog.jpg" alt="puravik" style="width:304px;height:228px;">
+		   	<p>Seene kasvukohaga seotud tunnused<p>Seene kuju<p>Seene värvus ja pinna iseloom<p>
+  			Teised määramistunnused: suurus, lõhn, rabedus jms</p><!--p abil tekib eraldi pragrahv, muidu üksteise otsas-->
+			
+			
+        <br>
+	   
+	   	<h3>Näpunäiteid</h3>
+       	
+    		<p>Määramist võid alustada mistahes tunnuste grupist.Mida rohkem kolmanda 
+    		taseme tunnuseid sa eri tunnusekategooriate all valid, seda kitsamaks muutub otsing.
+    		Samas, valides enam kui ühe valiku kolmanda taseme sama kategooria tunnustest 
+    		(näiteks mitu kübara värvust), suureneb tunnustele vastavate seente nimekiri.Tehtud 
+    		valikuid saad tühistada vastaval sümbolil teistkordse klõpsamisega.
+    		Lisaks saab valikuid tühistada ka tulemuste ülaosas (otsingutulemustele päises).
+    		Iga taseme tunnuste täpsustamiseks leiad abi väikesel rohelisel küsimärgiikoonil klõpsates. Valikul aitavad sind ka illustratsioonid.
+    		</p><!--kuna tühikuid ei tunnista ja enterit samuti mitte, siis üheks variandiks on br vahele-->
+			
+		
+		<a href="miski"></a>
+		
 
+  </body>
+</html>
