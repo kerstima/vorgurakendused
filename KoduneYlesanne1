@@ -5,38 +5,68 @@
     	<title>Harjutus1</title><!--tagi nimi-->
 		
   </head>
-  <body><!--siit algab osa, mis on browseris näha-->
-  		<h1 style="text-align:center; color:blue">Seente liigimääraja</h1><!--style ja jutumärkide sees olev inf on CSS-st-->
-    		Jänes ja karu on seenel. Karu leiab kärbseseene. Ja hakkab seda üles võtma. Jänes karjub karule: "Ära seda seent võtta see on kärbseseen!!"
-    		Karu: "Ah, las kärbes otsib endale uue seene."Ja korjab seene üles.
-		<br>	
+  <body style="background-color:lightgreen;"><!--siit algab osa, mis on browseris näha-->
+  		
+		<h1 style="text-align:center; color:darkgreen">Seente liigimääraja</h1><!--style ja jutumärkide sees olev inf on CSS-st-->
+			
+			<hr>	<!--tekitab vahele joone-->
+    		
+			<pre style="font-family:verdana;"> <!--hoiab pre-de vahel oleva lõigu samas kujunduses, sh alguse asukoht ekraanil-->
+Jänes ja karu on seenel. Karu leiab kärbseseene. Ja hakkab seda üles võtma. 
+			
+Jänes karjub karule: "Ära seda seent võtta see on kärbseseen!!"
+			
+Karu: "Ah, las kärbes otsib endale uue seene."Ja korjab seene üles.
+			</pre>
         
 		<h2>Lühijuhend</h2>
-		Kaks lõvi istuvad puuris ja silmitsevad kaasaskantava apteegi sisu ja sarvraamidega prille.<br/>
-		"Hea loomaarst oli," ütleb üks.<br/>
-		"Jah," nõustub teine, "kahju, et enam tükikestki järel pole..."<br/>
+		<pre style="font-family:lucida handwriting;color:darkblue;font-size:160%;">
+		Kaks lõvi istuvad puuris ja silmitsevad kaasaskantava apteegi sisu ja sarvraamidega prille.
+		"Hea loomaarst oli," ütleb üks.
+		"Jah," nõustub teine, "kahju, et enam tükikestki järel pole..."
+		</pre>
 		
 		<h3>Tunnuste grupid</h3>
-			<img src="frog.jpg" alt="puravik" style="width:304px;height:228px;">
-		   	<p>Seene kasvukohaga seotud tunnused<p>Seene kuju<p>Seene värvus ja pinna iseloom<p>
-  			Teised määramistunnused: suurus, lõhn, rabedus jms</p><!--p abil tekib eraldi pragrahv, muidu üksteise otsas-->
+			<img src="frog.jpg" alt="puravik" style="width:450px;height:300px;">
+		   	<p><b>Seene kasvukohaga seotud tunnused</b><p><!--b on bold-->
+			<i>Seene kuju</i><p>
+			Seene värvus ja pinna iseloom<p>Teised määramistunnused: suurus, lõhn, rabedus jms</p><!--p abil tekib eraldi pragrahv, muidu üksteise otsas-->
 			
 			
-        <br>
+        <br><!--kuna tühikuid ei tunnista ja enterit samuti mitte, siis üheks variandiks on br vahele-->
 	   
-	   	<h3>Näpunäiteid</h3>
+	   	<h3 style="text-align:center;">Näpunäiteid</h3>
        	
-    		<p>Määramist võid alustada mistahes tunnuste grupist.Mida rohkem kolmanda 
+    		<p>
+			
+			Määramist võid alustada mistahes tunnuste grupist.Mida rohkem kolmanda 
     		taseme tunnuseid sa eri tunnusekategooriate all valid, seda kitsamaks muutub otsing.
     		Samas, valides enam kui ühe valiku kolmanda taseme sama kategooria tunnustest 
     		(näiteks mitu kübara värvust), suureneb tunnustele vastavate seente nimekiri.Tehtud 
     		valikuid saad tühistada vastaval sümbolil teistkordse klõpsamisega.
     		Lisaks saab valikuid tühistada ka tulemuste ülaosas (otsingutulemustele päises).
-    		Iga taseme tunnuste täpsustamiseks leiad abi väikesel rohelisel küsimärgiikoonil klõpsates. Valikul aitavad sind ka illustratsioonid.
-    		</p><!--kuna tühikuid ei tunnista ja enterit samuti mitte, siis üheks variandiks on br vahele-->
+    		Iga taseme tunnuste täpsustamiseks leiad abi väikesel rohelisel küsimärgiikoonil klõpsates. 
+			Valikul aitavad sind ka illustratsioonid. Keskmisele eestlasele seostub trühvel tõenäoliselt 
+			šokolaadikommiga. Sõna trühvel tuleneb ladinakeelsest väljendist tuber, mis tähendab “köbrukest” 
+			või “kühmu”. Tõsi, šokolaadikommid näevad kühmukujulised välja, kuid trühvleid kasutatakse ka 
+			botaanilise mõistena teatud liiki seente tähistamiseks.</p>
+			
+			<p>
+Mis on trühvlid?
+
+Trühvliks nimetatakse mugulakujulist seent, mille viljakeha kasvab maa sees. Trühvlid elavad sümbioosis puudega, milleks on tavaliselt tammed. Erinevaid trühvliliike on kirjeldatud ligikaudu 1000, kuid vaid mõned neist on Tuber perekonda kuuluvad hinnatud söögiseened. Trühvlid jaotatakse mustadeks ja valgeteks. Ühe grammi turuhind on kaks kuni seitse eurot, olenevalt viljakehade suurusest, värskusest ja seeneliigist.
+
+Oma loodusliku leviala piires on kõik trühvlid üsna haruldased, mistõttu nende leiukohti kiivalt varjatakse. Vabas looduses otsitakse trühvleid trühvlisigade või koerte abil. Praegu on ainsaks tunnustatud tõuks romagna veekoer, kuigi praktiliselt on võimalik selleks otstarbeks treenida igat tõugu.
+    		</p>
 			
 		
-		<a href="miski"></a>
+<a href="http://www.16662.ee/mrgistusriskid/murgistused-loodusest/murgised-seened.html">Rohkem infot leiad siit</a> 
+		
+		   <p>
+		   <a href="http://validator.w3.org/check?uri=referer">
+		   <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+ 		   </a>
+		   </p>
 		
 
   </body>
