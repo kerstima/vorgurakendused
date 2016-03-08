@@ -1,0 +1,49 @@
+
+body {
+margin: 0;
+padding: 0;
+background-color:chocolate;
+background-image: url("pabertaust.jpg");
+background-repeat: no-repeat;
+background-size:100%;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 150px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+
+}
+div{
+margin-left: 150px;
+margin-right: auto;
+padding:1px 16px;
+width:500px;
+height:1000px;
+background-color: beige;
+font-family:"Old English Text MT", Algerian;
+}
+
+a{
+font-family:"Old English Text MT", Algerian;
+color: black;
+ }
