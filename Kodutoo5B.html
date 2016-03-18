@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="et">
+  <head>
+    <meta charset="utf-8">
+    <title>Kodutoo5B</title>
+    
+  </head>
+  <body>
+
+<h2>Nupukasutus</h2>
+<button type="button" onclick="document.getElementById('aeg').innerHTML = Date()">Vajutades väljastab kuupäeva jne</button>
+<p id="aeg"></p>
+
+<h2>Teksti asendamine nupule vajutades</h2>
+<p id="tekstimuut">See tekst muutub, kui vajutad nuppu</p>
+<button type="button"onclick="myFunction1()">Vajuta</button>
+<script>
+function myFunction1() {
+    document.getElementById("tekstimuut").innerHTML = "Tekst asendus";}
+</script>
+ 
+<h2>Teksti suuruse või värvi muutmine nupule vajutamisega</h2>
+<p id="suurus">Teksti suuruse, värvi vm muutmine nupule vajutades</p>
+<button type="button" onclick="myFunction2()">Vajuta</button>
+<script>
+function myFunction2() {
+    var x = document.getElementById("suurus");
+    x.style.fontSize = "25px";           
+    x.style.color = "red"; }
+</script>
+
+<h2> osaline teksti asendus nupule vajutades</h2>
+<p>Asenda "Koer" sõnaga "Kass" allolevas tekstis:</p>
+<button onclick="myFunction3()">Vajuta</button>
+<p id="asendus">Suur Koer!</p>
+<script>
+function myFunction3() {
+    var str = document.getElementById("asendus").innerHTML; 
+    var txt = str.replace("Koer","Kass");
+    document.getElementById("asendus").innerHTML = txt;}
+</script>
+
+<h2>Sisendi võrdlus</h2>
+<p>Sisesta number ja vajuta:</p>
+<input id="klaas" value="5" />
+<button onclick="myFunction4()">Vajuta</button>
+<p id="jook"></p>
+<script>
+function myFunction4() {
+    var klaas, kogus;
+    klaas = document.getElementById("klaas").value;
+    kogus = (klaas < 5) ? "Oled vähe":"Oled juba liialt";
+    document.getElementById("jook").innerHTML = kogus + " joonud.";}
+</script>
+
+<h2> klikates teksti muutmine:</h2>
+<h2 onclick="this.innerHTML='Ma ütlesin, ära roni ligi, olen närviline!'">Ära roni ligi!</h2>
+
+<h2 onclick="changeText(this)">proovi seda ka!</h1>
+<script>
+function changeText(id) {
+    id.innerHTML = "No said targemaks!";}
+</script>
+
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:green;width:120px;height:20px;padding:40px;">
+Hiirega peale ronides</div>
+<script>
+function mOver(obj) {obj.innerHTML = "Võid nüüd maha ka ronida"}
+function mOut(obj) {obj.innerHTML = "Hiirega peale ronides"}
+</script>
+<br>
+<br>
+<div onmousedown="mDown(this)" onmouseup="mUp(this)"
+style="background-color:green;width:90px;height:20px;padding:40px;">
+Sama siin klikkides</div>
+
+<script>
+function mDown(obj) {
+    obj.style.backgroundColor = "red";
+	obj.style.fontSize = "25px"
+	    obj.innerHTML = "Jäta rahule!";}
+function mUp(obj) {
+    obj.style.backgroundColor="lightgreen";
+	obj.style.fontSize = "15px"
+    obj.innerHTML="tore, et aru said";}
+</script>
+
+</body>
+</html>
