@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="et">
+  <head>
+    <meta charset="utf-8">
+    <title>Kodutoo6C</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script>	
+
+$(document).ready(function(){
+
+	var $first = $('li:first', 'ul'),
+    $last = $('li:last', 'ul');
+	$("#next").click(function () {
+    var $next, $selected = $(".active");
+
+
+    $next = $selected.next('li').length ? 
+	$selected.next('li') : $first;
+    $selected.removeClass("active");
+    $next.addClass('active');
+});
+
+    $("#prev").click(function () {
+    var $prev, $selected = $(".active");
+
+    $prev = $selected.prev('li').length ?
+	$selected.prev('li') : $last;
+    $selected.removeClass("active");
+    $prev.addClass('active');
+
+});
+});
+</script>
+ 
+<style>
+.active {
+		color: blue;
+		}
+</style>	
+</head>
+ 
+ <body>
+  	<button id="next">edasi</button>
+	<button id="prev">tagasi</button>
+	
+</div>
+	<ul id="">
+		<li id="">esimene</li>
+		<li id="">teine</li>
+		<li id="">kolmas</li>
+		<li id="">neljas</li>
+	</ul>
+
+  </body>
+</html>
